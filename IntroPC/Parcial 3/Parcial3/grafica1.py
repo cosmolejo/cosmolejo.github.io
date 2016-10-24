@@ -1,0 +1,71 @@
+#! usr/bin/env python
+
+import matplotlib.pyplot as plt
+from numpy import *
+plt.close("all")
+
+
+plt.suptitle('Movimiento parabolico(parcial 3,Alejandro Mesa)')
+plt.xlabel("x (m)")
+plt.ylabel("y (m)")
+plt.xlim((0,9))
+plt.ylim((0,2.0))
+
+xs1=[]
+xs2=[]
+xs3=[]
+ys1=[]
+ys2=[]
+ys3=[]
+
+vo1=10
+vo2=5
+vo3=5
+teta1=30
+teta2=30
+teta3=45
+xo1=0.000001
+xo2=0.000001
+xo3=0.000001
+yo1=0.000001
+yo2=0.000001
+yo3=0.000001
+
+vox1=vo1*cos(teta1*pi/180)
+voy1=vo1*sin(teta1*pi/180)
+
+vox2=vo2*cos(teta2*pi/180)
+voy2=vo2*sin(teta2*pi/180)
+
+vox3=vo3*cos(teta3*pi/180)
+voy3=vo3*sin(teta3*pi/180)
+
+
+for t in linspace(0,1000,1000000):
+    x1=xo1+vox1*t
+    y1=yo1+voy1*t-0.5*9.8*t**2
+    
+    x2=xo2+vox2*t
+    y2=yo2+voy2*t-0.5*9.8*t**2
+    
+    x3=xo3+vox3*t
+    y3=yo3+voy3*t-0.5*9.8*t**2
+
+    xs1+=[x1]
+    ys1+=[y1]
+    xs2+=[x2]
+    ys2+=[y2]
+    xs3+=[x3]
+    ys3+=[y3]
+    
+    if y1<=0 and y2<=0 and y3<=0:
+        break
+    
+p1=plt.plot(xs1,ys1,color='b', label=r'$\upsilon$=10.0 m/s, $\theta$=30')
+p2=plt.plot(xs2,ys2,color='g', label=r'$\upsilon$=5.0 m/s, $\theta$=30')
+p3=plt.plot(xs3,ys3,color='r', label=r'$\upsilon$=5.0 m/s, $\theta$=45')
+plt.legend(loc=1)
+
+
+plt.savefig("figura1.png")
+plt.show()

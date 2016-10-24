@@ -1,0 +1,38 @@
+int divisor(int d);
+//declaracion funcion primo
+int primo (int f)
+{
+  int i,comp,sw;
+  for(i=2;i<=(f-1);i++)
+    {
+      comp=f%i;
+      if (comp==0)
+	{
+	  return 0;
+	  sw=1;
+	  break;
+	  }
+    }
+  if (sw==0)
+    {
+      return 1;
+    }
+ }
+
+//declaracion funcion divisor .... modificar!!!
+int divisor(int d)
+{
+  for(i=2;i<=(f-1);i++)
+    {
+      comp=d%i; //ordenar lo faltante... hacer el estudio de los primos.
+      if (comp==0)
+	{
+	  p=primo(i)
+	  return 1;
+	  break;
+	}
+    }
+ 
+} 
+
+

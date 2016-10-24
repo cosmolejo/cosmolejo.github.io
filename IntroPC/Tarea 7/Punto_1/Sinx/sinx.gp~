@@ -1,0 +1,12 @@
+set terminal png
+set output "sinx/x_gp.png"
+
+set ylabel "F(x)"
+set xlabel "x"
+set title "grafica sin(x)/x"
+set grid
+set xtics 1
+set ytics 1
+
+
+plot sin(x)/x

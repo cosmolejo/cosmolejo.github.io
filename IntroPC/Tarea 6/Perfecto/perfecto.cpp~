@@ -1,0 +1,26 @@
+#include <cstdio>
+#include <cmath>
+using namespace std;
+
+int main (void)
+{
+  double num,div,i,sum,cond;
+  printf("ingrese un numero: ");
+  scanf("%lf",&num);
+  for (i=1;i<=(num-1);i++)
+    {
+      cond=int(num%i);
+      if (cond == 0)
+	{
+	  sum+=i
+	}
+    }
+  if (sum==num)
+    {
+       printf("el numero %lf es perfecto \n");
+    }
+  else
+    {
+      printf("el numero %lf es no perfecto \n");
+    }
+}

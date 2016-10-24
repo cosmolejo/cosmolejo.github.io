@@ -1,0 +1,24 @@
+#include <cstdio>
+#include "gms2dec.cpp"
+using namespace std;
+
+int main (void) 
+{
+  double g,m,s,rut;
+  printf("ingrese el angulo a medir (formato: gread  m' s'')\n");
+  printf("angulo (grad): ");
+  scanf("%lf",&g);
+  printf("minutos (m'): ");
+  scanf("%lf",&m);
+  printf("segundos (s''): ");
+  scanf("%lf",&s);
+
+  rut=gms2dec(g,m,s);
+  
+  printf("su angulo en formato decimal es: %lf \n",rut);
+
+  return 0;
+
+
+
+}

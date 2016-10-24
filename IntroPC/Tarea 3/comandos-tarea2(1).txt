@@ -1,0 +1,112 @@
+mkdir -p Taller1-AlejandroMesa
+cd Taller1-AlejandroMesa/
+mkdir -p Basura
+mkdir -p Computadores/{Ejemplos,Ejercicios,Programas,Notas}
+ls -R
+mkdir -p Computadores/Notas/Talleres
+mkdir -p Documentos/{Canciones,Cartas,Mensajes}
+mkdir -p Documentos/Cartas/Amigos/Oficiales
+mkdir -p Documentos/Mensajes/Poemas
+mkdir -p Imagenes/{Astronomia,Automoviles}
+mkdir -p Imagenes/Automoviles/SistemaSolar
+mkdir -p Materias Notas Personal
+ls -l
+mkdir -p Personal/{Direcciones,Informacion}
+ls -R
+mkdir -p Personal/Direcciones/{Amigos,Fisica}
+mkdir -p Personal/Direcciones/Fisica/Internet
+mkdir -p Temporal Universidad
+emacs comandos-95021918882.txt
+cp comandos-95021918882.txt Computadores/Ejemplos/
+cp comandos-95021918882.txt Computadores/Ejercicios/
+ls -R
+cd Personal/Direcciones/Amigos/
+emacs amigos-metodos-AlejandroMesa.txt &
+cd ../../..
+emacs materias-semestre_semestre.txt
+mv materias-semestre_semestre.txt materias-2012-2.txt
+cp materias-2012-2.txt Materias/
+mv materias-2012-2.txt Basura/
+cp -r "Materias/" "Universidad/" 
+rm -ri Materias/
+mv Notas/ Notas-2012-2
+mv Notas-2012-2/ Universidad/Materias/
+cd ..
+cd Descargas/tarea/
+ls -l
+mv camara-Keck.gif ~/Taller1-AlejandroMesa/Imagenes/
+mv cmara-VLT.gif camara-VLT.gif
+mv camara-Vltk.gif ~/Taller1-AlejandroMesa/Imagenes/
+mv camara-Vlt.gif ~/Taller1-AlejandroMesa/Imagenes/
+mv camara-VLT.gif ~/Taller1-AlejandroMesa/Imagenes/
+mv fotografia-luna.jpg ~/Taller1-AlejandroMesa/Imagenes/
+mv fotografia-sol.jpg ~/Taller1-AlejandroMesa/Imagenes/
+mv imagen-m31.jpg ~/Taller1-AlejandroMesa/Imagenes/
+mv imagen-m42.jpg ~/Taller1-AlejandroMesa/Imagenes/
+cd ~/Taller1-AlejandroMesa/Imagenes/Astronomia/
+mkdir -p JPGS GIFS
+cd ..
+mv camara-Keck.gif Astronomia/GIFS/
+mv camara-VLT.gif Astronomia/GIFS/
+mv fotografia-sol.jpg Astronomia/JPGS/
+mv fotografia-luna.jpg Astronomia/JPGS/
+mv imagen-m31.jpg Astronomia/JPGS/
+mv imagen-m42.jpg Astronomia/JPGS/
+mv Astronomia/JPGS/fotografia-sol.jpg Automoviles/SistemaSolar/
+mv Astronomia/JPGS/fotografia-luna.jpg Automoviles/SistemaSolar/
+cd Astronomia/
+cp -r GIFS/ ~/Taller1-AlejandroMesa/Computadores/Ejemplos/
+rm -ri GIFS/
+cd ../..
+mv ~/Descargas/archivos-varios-tarea3-linux.tar Temporal/
+cd Temporal/
+tar xvf archivos-varios-tarea3-linux.tar 
+ls -R
+mv carta-ruffini.txt ../Documentos/Cartas/Amigos/Oficiales/
+mv carta-equipo.txt ../Documentos/Cartas/Amigos/
+mv carta-de-referencia-C.pdf ../Documentos/Cartas/
+mv check-url.txt ../Computadores/Ejemplos/
+mv Documento_1.doc ../Documentos/
+mv ../Imagenes/Automoviles/SistemaSolar/ ../Imagenes/
+mv ../Documentos/Mensajes/Poemas/ ../
+mv Documento_2.doc ../Documentos/
+mv Documento_3.doc ../Documentos/
+mv Documento_4.doc ../Documentos/
+mv Documento_5.doc ../Documentos/
+mv Documento_6.doc ../Documentos/
+mv Documento_7.doc ../Documentos/
+mv Documento_8.doc ../Documentos/
+mv Documento_9.doc ../Documentos/
+mv index.html ../Personal/Direcciones/Fisica/Internet/
+mv ../Personal/Direcciones/Fisica/Internet/ ../Personal/Direcciones/
+mv El_Fantasma_de_Canterville.pdf ../Documentos/
+mv image-10.gif ../Computadores/Ejemplos/GIFS/
+mv image-11.gif ../Computadores/Ejemplos/GIFS/
+mv image-12.gif ../Computadores/Ejemplos/GIFS/
+mv image-7.gif ../Computadores/Ejemplos/GIFS/
+mv image-8.gif ../Computadores/Ejemplos/GIFS/
+mv linuxmanual.pdf ../Personal/Informacion/
+mv ../Personal/Informacion/ ..
+mv manual-gnuplot.html ../Informacion/
+mv manual-latex. ../Informacion/
+mv manual-latex.pdf ../Informacion/
+mv manual-latex.tar.gz ../Informacion/
+mv programa-1.c ../Computadores/Programas/
+mv programa-2.c ../Computadores/Programas/
+mv programa-3.c ../Computadores/Programas/
+mv programa-4.c ../Computadores/Programas/
+mv programa-5.c ../Computadores/Programas/
+mv programa-6.c ../Computadores/Programas/
+mv programa-7.c ../Computadores/Programas/
+mv programa-8.c ../Computadores/Programas/
+mv programa-9.c ../Computadores/Programas/
+mv programa-10.c ../Computadores/Programas/
+mv programa-11.c ../Computadores/Programas/
+mv programa-12.c ../Computadores/Programas/
+ls -l
+mv programa.doc ../Computadores/Programas/
+mv Adivinanzas_y_Colmos.pdf ../Documentos/
+mv lista-oficial-grupo-01.sxw ../Universidad/Materias/
+mv programa-computadores-udea-2005-2.sxw ../Computadores/Notas/
+ls -lR
+mv resumen-seminario.txt ../Universidad/

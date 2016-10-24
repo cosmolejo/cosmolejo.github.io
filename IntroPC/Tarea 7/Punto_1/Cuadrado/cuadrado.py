@@ -1,0 +1,15 @@
+#!/usr/bin/env python 
+import matplotlib.pyplot as plt
+from numpy import *
+plt.close("all")
+
+x=linspace(-10,10)
+
+cuadrado=plt.plot(x,x*x)
+
+plt.axhline(0,color='k')
+plt.axvline(0,color='k')
+
+
+plt.savefig("cuadrado_py.png")
+plt.show()

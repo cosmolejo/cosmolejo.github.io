@@ -1,0 +1,106 @@
+/* table
+{
+  border-collapse: collapse;
+  border:solid black 0px;
+}
+td
+{
+    width:50px;
+    height:50px
+    font-size:3em;
+    color:#663300;
+    background:lightgray;
+    border: solid black 0px;
+   }
+td.elemento ---- estilo para clase especifica
+{
+  background-color:lightgreen;
+  border:solid black 1px;
+}
+*/
+
+body.hidrogen {
+    border-style: hidden;
+    background-image: url(https://db.tt/cna1CSE6);
+    background-position: center center;
+    background-repeat: repeat-x;
+    list-style-position: outside;
+    list-style-type: georgian;
+    background-attachment: fixed;
+    text-align: center;
+}
+body.iridium {
+    border-style: hidden;
+    background-image: url(https://db.tt/54oihcud);
+    background-position: center center;
+    background-repeat: repeat-x;
+    list-style-position: outside;
+    list-style-type: georgian;
+    background-attachment: fixed;
+    text-align: center;
+    text-decoration-color: rgb(255, 204, 0);
+}
+table.datos {
+    border-collapse: collapse;
+    border: solid black;
+}
+table.datosiri {
+    border-collapse: collapse;
+    border: solid black;
+    text-decoration-color: rgb(255, 204, 0);
+}
+table.text {
+    text-align: left;
+    width: 100%;
+}
+table.text.iri {
+    text-align: left;
+    width: 100%;
+    text-decoration-color: rgb(255, 204, 0);
+}
+div.hidrogen {
+    text-align: justify;
+    font-family: Adamina;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+div.iridium {
+    text-align: justify;
+    font-family: Adamina;
+    color: rgb(255, 204, 0);
+    font-weight: bold;
+}
+
+div.contenedor{
+    	display:table; /*tipos: none, block, in-line,table,table-cell,table-row (este es un contenedor de celdas!!)*/
+	border:solid black 1px;
+	width:100%;
+	heigth:100%;
+}
+
+div.titulo{
+	display:table-cell;
+	border:solid blue 1px;
+	font-size:3em;
+	vertical-align:middle;
+	padding-left:100px;
+}
+
+div.menu{
+	display:table-cell;	
+	border:solid red 1px;
+	width: 30% ;
+	heigth: 90%;
+}
+div.contenido{
+	display:table-cell;	
+	border:solid green 1px;
+	
+		
+}
+
+
+
+
+
+

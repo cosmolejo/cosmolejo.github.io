@@ -1,0 +1,6 @@
+set terminal png
+set output "cuadrado_gp.png"
+
+plot 2*x+1 t "2*x+1" w lp  lc= rgb"blue"
+replot 3*x+2 t "3*x+4" w d  lc= rgb"red"
+replot 4*x+2 t "4*x+4" w l  lc= rgb"green"

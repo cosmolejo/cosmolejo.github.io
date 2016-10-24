@@ -1,0 +1,24 @@
+#include <cstdio>
+#include <cmath>
+#include "Fperfecto.cpp"
+using namespace std;
+
+int main (void)
+{
+  long int num,i,sw,cond;
+  printf("ingrese el numero limite para caulcular numeros perfectos: ");
+  scanf("%d",&num);
+  for (i=1;i<=(num-1);i++)
+    {
+      Fperfecto(i,cond);
+      if (cond == 1)
+	{
+	  sw=1;
+	  printf("numero perfecto inferior a %Lf: %Lf \n",num,i);
+	}
+    }
+  if (if sw==0)
+    {
+      printf("no existen numeros perfectos inferiores al numero %Lf \n",num);
+    }
+}

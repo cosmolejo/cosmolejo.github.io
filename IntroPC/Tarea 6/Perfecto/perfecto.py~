@@ -1,0 +1,15 @@
+num=input("ingrese un numero: ")
+i=1
+suma=0
+while i<=(num-1):
+    cond=num%i
+    if cond == 0:
+        suma+=i
+    i++
+    
+if suma==num:
+    printf("el numero %d es perfecto \n",num)
+    
+else:
+    printf("el numero %d es no perfecto \n",num)
+    

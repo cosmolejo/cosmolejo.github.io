@@ -1,0 +1,19 @@
+table
+{
+  border-collapse: collapse;
+  border:solid black 0px;
+}
+td
+{
+    width:50px;
+    height:50px
+    font-size:3em;
+    color:#663300;
+    background:lightgray;
+    border: solid black 0px;
+   }
+td.elemento /* estilo para clase especifica */
+{
+  background-color:lightgreen;
+  border:solid black 1px;
+}

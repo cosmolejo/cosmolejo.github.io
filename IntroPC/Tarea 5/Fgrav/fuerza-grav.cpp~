@@ -1,0 +1,19 @@
+#include <cstdio>
+#include <cmath>
+using namespace std;
+
+int main(void)
+{
+  float m1,m2,r,G;
+  printf("ingrese la masa 1: ");
+  scanf("%e",&m1);
+  printf("\n");
+  printf("ingrese la masa 2: ");
+  scanf("%e Kg\n",&m2);
+  printf("por ultimo ingresela distancia entre ambos cuerpos: ");
+  scanf("%e m\n",&r);
+  G=6.674*pow(10.0,-11); //por 10 a la -11
+  printf("%e",G);
+  return 0;
+
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env python 
+import matplotlib.pyplot as plt
+from numpy import *
+plt.close("all")
+
+datos=loadtxt("experimento.dat")pi)
+x=datos[:,0]
+y=datos[:,1]
+
+xlin=linspace(0.0,1.2)
+
+exp=plt.plot(x,y,'+',color='r',markersize=5)
+linea=plt.plot(xlin,9.8*xlin+0.5,'-',color='b')
+
+
+

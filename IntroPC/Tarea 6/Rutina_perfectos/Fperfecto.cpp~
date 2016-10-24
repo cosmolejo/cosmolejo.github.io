@@ -1,0 +1,21 @@
+int main (int num)
+{
+  double div,sum,cond;
+  int i,perf;
+  for (i=1;i<=(num-1);i++)
+    {
+      cond=num%i;
+      if (cond == 0)
+	{
+	  sum+=i;
+	}
+    }
+  if (sum==num)
+    {
+      return perf=1; 
+    }
+  else
+    {
+      return perf=0;
+    }
+}

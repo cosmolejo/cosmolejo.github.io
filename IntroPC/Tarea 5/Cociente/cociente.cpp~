@@ -1,0 +1,16 @@
+#include <cstdio>
+#include <cmath>
+
+using namespace std;
+
+int main (void)
+{
+  float a,b;
+  printf("ingrese el primer valor: \n");
+  scanf("%f",&a);
+  printf("ingrese el segundo valor: \n");
+  scanf("%f",&b);
+  printf("el cociente de %f y %f es: %f; su residuo es %f",a,b,(a/b),(a%b));   
+  return 0;
+
+}

@@ -1,0 +1,20 @@
+#! /usr/bin/env python 
+import math
+
+t=input("numero de decimales MAXIMO 18: ")
+a=math.pow(10,t)
+print"a= \n",a
+pi=1.0;
+i=1000000
+while i>0:
+    pi=2.0+(2*i+1)*(2*i+1)/pi
+    i=i-1
+pi=1.0/pi
+pi=pi+1.0
+pi=4.0/pi;
+print"pi= \n",pi
+pi2=(pi*a);
+print"pi2= \n",pi2
+pi3=pi2/a;
+pi2=pi2-(3*a);
+print" pi con %ld cifras decimales es: 3.%ld\n"%(t,pi2)

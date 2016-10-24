@@ -1,0 +1,4 @@
+set terminal png
+set output "experimento_gp.png"
+
+plot open "./experimento.dat" u 1:2 w p

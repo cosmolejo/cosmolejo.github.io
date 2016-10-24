@@ -1,0 +1,10 @@
+#include <cmath>
+
+void dec2gsm(double dec, double& g, double& s, double& m)
+{
+  
+
+
+
+
+}

@@ -1,0 +1,5 @@
+num=input("ingrese un numero: ")
+i=1  
+while i<=num:
+    suma+=i
+print"la suma de todos los numeros anteriores a %lf es: %lf \n"%(num,suma)

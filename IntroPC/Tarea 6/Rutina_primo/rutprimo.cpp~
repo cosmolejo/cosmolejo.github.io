@@ -1,0 +1,20 @@
+int primo (int n)
+{
+  int i,comp,sw;
+  printf("ingrese un numero: ");
+  scanf("%d",&num);
+  for(i=2;i<=(num-1);i++)
+    {
+      comp=num%i;
+      if (comp==0)
+	{
+	  return 0;
+	  sw=1;
+	  break;
+	  }
+    }
+  if (sw==0)
+    {
+      return 1;
+    }
+ }

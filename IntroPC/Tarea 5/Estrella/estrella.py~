@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+d=input("ingrese la distancia a la que se encuantra la estrella de la nave (km): ")
+v=input("ingrese la velocidad a la que se desplaza la nave (m/s): ")
+d=d/1000
+t=(d/v)
+if (t > 31557600): 
+    t*=(3600*24*365.25)
+ print"su nave tardara: %e segundos en llegar a la estrella en cuestion ",t

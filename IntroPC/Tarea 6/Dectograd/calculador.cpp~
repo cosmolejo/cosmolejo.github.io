@@ -1,0 +1,21 @@
+#include <cstdio>
+#include <cmath>
+#include "dec2gsm.cpp"
+using namespace std;
+
+int main (void)
+{
+  double lat,lon, g1,s1,m1,g2,m2,s2;
+  printf("ingrese la latitud con formato decimal (n.nnnnn): ");
+  scanf("%lf",&lat);
+  printf("ingrese la longitud con formato decimal (n.nnnnn): ");
+  scanf("%lf",&lon);
+  dec2gsm(lat,g1,m1,s1);
+  dec2gsm(lon,g2,m2,s2);
+  printf("su latitud es: %.0lf (grad) %.0lf' %.0lf'' \n",g1,m1,s1);
+  printf("su longitud es: %.0lf (grad) %.0lf' %.0lf'' \n",g2,m2,s2);
+    
+  return 0;
+
+
+}

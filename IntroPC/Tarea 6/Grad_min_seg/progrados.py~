@@ -1,0 +1,17 @@
+#! /usr/bin/ env python
+import gms2dec
+
+print"ingrese la latitud (formato: grad  m' s'')\n"
+g1=input("angulo (grad): ")
+m1=input("minutos (m'): ")
+s1=input("segundos (s''): ")
+
+lat=gms2dec.gms2dec(g1,m1,s1)
+print"ingrese la longitud (formato: grad  m' s'')\n"
+g2=input("angulo (grad): ")
+m2=input("minutos (m'): ")
+s2=input("segundos (s''): ")
+
+lon=gms2dec(g2,m2,s2);
+print"su latitud en formato decimal es: %lf \n"%(lat);
+print"su longitud en formato decimal es: %lf \n"%(lon);
