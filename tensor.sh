@@ -11,14 +11,14 @@
 ######################
 ## uninstall
 ######################
-pip uninstall --yes tensorflow scipy numpy h5py scikit-learn
+pip uninstall --yes tensorflow scipy pandas numpy h5py scikit-learn
 
 
 ######################
 ## install
 ######################
 
-conda install -y tensorflow scipy numpy h5py scikit-learn
+conda install -y tensorflow scipy pandas numpy h5py scikit-learn
 
 ######################
 ## test
