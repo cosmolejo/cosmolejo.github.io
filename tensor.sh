@@ -20,22 +20,4 @@ pip uninstall --yes tensorflow scipy pandas numpy h5py scikit-learn
 
 conda install -y tensorflow scipy pandas numpy h5py scikit-learn
 
-######################
-## test
-######################
-
-text="import numpy as np
-print np.add(1,2)
-import tensorflow as tf
-print tf.VERSION
-import scipy as sp
-print sp.__version__
-"
-
-echo "$text" > test.py
-
-python test.py
-
-rm test.py
-
-echo "success"
+echo "success!!......"
