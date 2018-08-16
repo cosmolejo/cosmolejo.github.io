@@ -29,7 +29,7 @@ print np.add(1,2)
 import tensorflow as tf
 print tf.VERSION
 import scipy as sp
-print sp._version_
+print sp.__version__
 "
 
 echo "$text" > test.py
